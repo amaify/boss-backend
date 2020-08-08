@@ -1,0 +1,42 @@
+{
+  "name": "boss-backend",
+  "version": "1.0.0",
+  "description": "A Chauffeur Service App",
+  "main": "app.js",
+  "engines": {
+    "node": "^14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "MONGO_USER=amaify MONGO_PASSWORD=flowers12 MONGO_DEFAULT_DATABASE=grand-lane node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Tobechukwu Ugwuanyi",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-mongodb-session": "^2.3.3",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "google-distance-matrix": "^1.1.1",
+    "graphql": "^15.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.19",
+    "multer": "^1.4.2",
+    "nexmo": "^2.8.0",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "pdfkit": "^0.11.0",
+    "stripe": "^8.67.0",
+    "uuid": "^8.2.0",
+    "validator": "^13.1.1"
+  }
+}
